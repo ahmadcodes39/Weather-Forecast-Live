@@ -21,7 +21,7 @@ async function changeWeather(city_name) {
             document.querySelector('.wind').innerText = data.wind.speed + "km/h";
             document.querySelector('.visible').innerText = (data.visibility) / 1000 + "km";
             if (data.weather[0].main == "Sun") {
-                weatherIcon.src = 'https://th.bing.com/th/id/OIP.kblQEo5yU-lQKm2VmrxO6AHaHa?pid=ImgDet&rs=1'
+                weatherIcon.src = 'https://img1.cgtrader.com/items/746079/41ee4215dc/sun-icon-3d-model-low-poly-max-obj-3ds-fbx.jpg'
             }
             else if (data.weather[0].main == "Rain") {
                 weatherIcon.src = 'https://webstockreview.net/images/clipart-rain-summer-10.png'

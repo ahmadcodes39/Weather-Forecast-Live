@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>weather</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search_name">
+            <input type="text" name="search" id="" placeholder="Enter city name" spellcheck="false">
+           <button><img src="images/search icon.jpeg" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="https://cdn3.iconfinder.com/data/icons/weather-399/48/rain_raining_weather_forecast_cloud-512.png" class="weather-icon">
+            <h1 class="temp">27°c</h1>
+            <h2 class="city">New Yourk</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="https://cdn4.iconfinder.com/data/icons/climate-change-7/512/RelativeHumidity-climatechange-waterdrop-weather-air-512.png" class="detail">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://cdn0.iconfinder.com/data/icons/weather-navy-volume-2/64/Visibility-512.png" class="detail">
+                    <div>
+                        <p class="visible">50%</p>
+                        <p>Visibility</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://th.bing.com/th/id/R.1e86927dc684f0ca398386ef5ed75f02?rik=4IvJkaBOLerK5g&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fwind-clipart-transparent%2fwind-clipart-transparent-19.png&ehk=6XLXb6WVeNsePxiqbgkpvYvGB5wfdejxaV8kxSrX%2bzs%3d&risl=&pid=ImgRaw&r=0" class="detail">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>wind Speed</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
